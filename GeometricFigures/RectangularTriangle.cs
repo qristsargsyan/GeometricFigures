@@ -26,6 +26,7 @@ namespace GeometricFigures
                         Console.Write(" ");
                     }
                 }
+
                 Console.WriteLine();
             }
             Console.WriteLine();
