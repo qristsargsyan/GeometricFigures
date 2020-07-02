@@ -5,10 +5,8 @@ namespace GeometricFigures
     class Triangle
     {
 
-        public void DrawTriangle()
+        public void DrawTriangle(int n)
         {
-            Console.WriteLine("We are going to draw triangle please enter the size ");
-            int n = int.Parse(Console.ReadLine());
 
             for (int i = 0; i <= n; i++)
             {

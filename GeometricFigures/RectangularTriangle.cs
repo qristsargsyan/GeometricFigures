@@ -5,11 +5,8 @@ namespace GeometricFigures
     class RectangularTriangle
     {
 
-        public void DrawRectangular()
+        public void DrawRectangular(int n)
         {
-
-            Console.WriteLine("We are going to draw rectangular triangle please enter the size ");
-            int n = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= n; i++)
             {
@@ -29,6 +26,7 @@ namespace GeometricFigures
 
                 Console.WriteLine();
             }
+
             Console.WriteLine();
 
         }

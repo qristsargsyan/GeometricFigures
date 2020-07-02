@@ -2,20 +2,17 @@
 
 namespace GeometricFigures
 {
-    class Square
+    public class Square
     {
 
-        public void DrawSquare()
+        public void DrawSquare(int w,int h)
         {
-
-            Console.WriteLine("We are going to draw square please enter the width ");
-            int w = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter the heigth ");
-            int h = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < h; i++)
             {
+
                 Console.WriteLine();
+
                 for (int j = 0; j < w; j++)
                 {
 
@@ -29,6 +26,7 @@ namespace GeometricFigures
                     }
                 }
             }
+
             Console.WriteLine("\n");
 
         }
